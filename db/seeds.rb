@@ -10,7 +10,7 @@
 # https://i.imgur.com/0LmSXiA.jpg
 
 puts "Destroying everything"
-User.destroy_all
+#User.destroy_all
 Pet.destroy_all
 
 
@@ -92,60 +92,60 @@ Pet.destroy_all
 # }
 
 
-james = User.create!(name: "James")
-patricia = User.create!(name: "Patricia")
-kev = User.create!(name: "Kev")
+# james = User.create!(name: "James")
+# patricia = User.create!(name: "Patricia")
+# kev = User.create!(name: "Kev")
 
 blubby = Pet.create!(name: "Blubby",
-hunger: 5,
-cleanliness: 5,
-energy: 5,
-happiness: 5,
+hunger: 50,
+cleanliness: 50,
+energy: 50,
+happiness: 50,
 happy_img: "https://i.imgur.com/0LmSXiA.jpg",
 sad_img: "https://i.imgur.com/0LmSXiA.jpg",
 user_id: 1)
 
 momo = Pet.create!(name: "Momo",
-hunger: 5,
-cleanliness: 5,
-energy: 5,
-happiness: 5,
+hunger: 50,
+cleanliness: 50,
+energy: 50,
+happiness: 50,
 happy_img: "https://i.imgur.com/0LmSXiA.jpg",
 sad_img: "https://i.imgur.com/0LmSXiA.jpg",
 user_id: 2)
 
 shoobie = Pet.create!(name: "Shoobie",
-hunger: 5,
-cleanliness: 5,
-energy: 5,
-happiness: 5,
+hunger: 50,
+cleanliness: 50,
+energy: 50,
+happiness: 50,
 happy_img: "https://i.imgur.com/0LmSXiA.jpg",
 sad_img: "https://i.imgur.com/0LmSXiA.jpg",
 user_id: 3)
 
 lil_stinker = Pet.create!(name: "Lil' Stinker",
-hunger: 5,
-cleanliness: 5,
-energy: 5,
-happiness: 5,
+hunger: 50,
+cleanliness: 50,
+energy: 50,
+happiness: 50,
 happy_img: "https://i.imgur.com/0LmSXiA.jpg",
 sad_img: "https://i.imgur.com/0LmSXiA.jpg",
 user_id: 1)
 
 fezzik = Pet.create!(name: "Fezzik",
-hunger: 5,
-cleanliness: 5,
-energy: 5,
-happiness: 5,
+hunger: 50,
+cleanliness: 50,
+energy: 50,
+happiness: 50,
 happy_img: "https://i.imgur.com/0LmSXiA.jpg",
 sad_img: "https://i.imgur.com/0LmSXiA.jpg",
 user_id: 2)
 
 blob = Pet.create!( name: "Blob",
-hunger: 5,
-cleanliness: 5,
-energy: 5,
-happiness: 5,
+hunger: 50,
+cleanliness: 50,
+energy: 50,
+happiness: 50,
 happy_img: "https://i.imgur.com/0LmSXiA.jpg",
 sad_img: "https://i.imgur.com/0LmSXiA.jpg",
 user_id: 3)
