@@ -110,8 +110,8 @@ hunger: 30,
 cleanliness: 60,
 energy: 70,
 happiness: 20,
-happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+happy_img: "https://i.imgur.com/7Q5umsA.gif",
+sad_img: "https://i.imgur.com/7Q5umsA.gif",
 user_id: 2)
 
 shoobie = Pet.create!(name: "Shoobie",
