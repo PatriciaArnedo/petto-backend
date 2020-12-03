@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
   namespace :api do
       resources :users, only: [:index, :create]
-      resources :pets, only: [:show, :index]
+      resources :pets, only: [:show, :index, :create]
       get '/users/:name', to: 'users#showName'
   end
 

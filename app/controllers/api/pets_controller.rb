@@ -10,10 +10,15 @@ class Api::PetsController < ApplicationController
         render json: pet
     end
 
+    def create
+        pet = Pet.create(pet_params)
+        render json: pet     
+    end
+
     private
 
-    def pets_params
-        params.permit(:name,:hunger,:cleanliness,:energy,:happiness,:happy_img,:sad_img,:user_id)
+    def pet_params
+        params.permit(:name, :hunger, :cleanliness, :energy, :happiness, :happy_img, :sad_img, :user_id, :bio)
     end
 
 end
