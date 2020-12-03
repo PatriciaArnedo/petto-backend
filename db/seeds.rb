@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-# https://i.imgur.com/0LmSXiA.jpg
+# https://i.imgur.com/tItxRTi.gif
 
 puts "Destroying everything"
 #User.destroy_all
@@ -35,8 +35,8 @@ Pet.destroy_all
 #         cleanliness: 5,
 #         energy: 5,
 #         happiness: 5,
-#         happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-#         sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+#         happy_img: "https://i.imgur.com/tItxRTi.gif",
+#         sad_img: "https://i.imgur.com/tItxRTi.gif",
 #         user_id: 1
 #     },
 #     {
@@ -45,8 +45,8 @@ Pet.destroy_all
 #         cleanliness: 5,
 #         energy: 5,
 #         happiness: 5,
-#         happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-#         sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+#         happy_img: "https://i.imgur.com/tItxRTi.gif",
+#         sad_img: "https://i.imgur.com/tItxRTi.gif",
 #         user_id: 2
 #     },
 #     {
@@ -55,8 +55,8 @@ Pet.destroy_all
 #         cleanliness: 5,
 #         energy: 5,
 #         happiness: 5,
-#         happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-#         sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+#         happy_img: "https://i.imgur.com/tItxRTi.gif",
+#         sad_img: "https://i.imgur.com/tItxRTi.gif",
 #         user_id: 3
 #     },
 #     {
@@ -65,8 +65,8 @@ Pet.destroy_all
 #         cleanliness: 5,
 #         energy: 5,
 #         happiness: 5,
-#         happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-#         sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+#         happy_img: "https://i.imgur.com/tItxRTi.gif",
+#         sad_img: "https://i.imgur.com/tItxRTi.gif",
 #         user_id: 1
 #     },
 #     {
@@ -75,8 +75,8 @@ Pet.destroy_all
 #         cleanliness: 5,
 #         energy: 5,
 #         happiness: 5,
-#         happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-#         sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+#         happy_img: "https://i.imgur.com/tItxRTi.gif",
+#         sad_img: "https://i.imgur.com/tItxRTi.gif",
 #         user_id: 2
 #     },
 #     {
@@ -85,8 +85,8 @@ Pet.destroy_all
 #         cleanliness: 5,
 #         energy: 5,
 #         happiness: 5,
-#         happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-#         sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+#         happy_img: "https://i.imgur.com/tItxRTi.gif",
+#         sad_img: "https://i.imgur.com/tItxRTi.gif",
 #         user_id: 3
 #     }
 # }
@@ -101,8 +101,8 @@ hunger: 80,
 cleanliness: 20,
 energy: 50,
 happiness: 10,
-happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+happy_img: "https://i.imgur.com/tItxRTi.gif",
+sad_img: "https://i.imgur.com/Wo5syV8.gif",
 user_id: 1)
 
 momo = Pet.create!(name: "Momo",
@@ -110,8 +110,8 @@ hunger: 30,
 cleanliness: 60,
 energy: 70,
 happiness: 20,
-happy_img: "https://i.imgur.com/7Q5umsA.gif",
-sad_img: "https://i.imgur.com/7Q5umsA.gif",
+happy_img: "https://i.imgur.com/tItxRTi.gif",
+sad_img: "https://i.imgur.com/Wo5syV8.gif",
 user_id: 2)
 
 shoobie = Pet.create!(name: "Shoobie",
@@ -119,8 +119,8 @@ hunger: 80,
 cleanliness: 10,
 energy: 20,
 happiness: 90,
-happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+happy_img: "https://i.imgur.com/tItxRTi.gif",
+sad_img: "https://i.imgur.com/Wo5syV8.gif",
 user_id: 3)
 
 lil_stinker = Pet.create!(name: "Lil' Stinker",
@@ -128,8 +128,8 @@ hunger: 90,
 cleanliness: 10,
 energy: 50,
 happiness: 70,
-happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+happy_img: "https://i.imgur.com/tItxRTi.gif",
+sad_img: "https://i.imgur.com/Wo5syV8.gif",
 user_id: 1)
 
 fezzik = Pet.create!(name: "Fezzik",
@@ -137,8 +137,8 @@ hunger: 40,
 cleanliness: 20,
 energy: 40,
 happiness: 80,
-happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+happy_img: "https://i.imgur.com/tItxRTi.gif",
+sad_img: "https://i.imgur.com/Wo5syV8.gif",
 user_id: 2)
 
 blob = Pet.create!( name: "Blob",
@@ -146,8 +146,8 @@ hunger: 50,
 cleanliness: 80,
 energy: 70,
 happiness: 10,
-happy_img: "https://i.imgur.com/0LmSXiA.jpg",
-sad_img: "https://i.imgur.com/0LmSXiA.jpg",
+happy_img: "https://i.imgur.com/tItxRTi.gif",
+sad_img: "https://i.imgur.com/Wo5syV8.gif",
 user_id: 3)
 
 
