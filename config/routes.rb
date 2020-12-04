@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     resources :pets, only: [:show, :index, :create, :update]
     #get '/users/:id', to: 'users#show'
     get '/users/:name', to: 'users#showName'
+    delete '/users/:name', to: 'users#deleteUser'
   end
 
 end
-

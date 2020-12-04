@@ -28,6 +28,17 @@ class Api::UsersController < ApplicationController
         render json: user     
     end
 
+    def deleteUser
+        user = User.find_by(:name => params[:name])
+        user.destroy!
+        render json: {}
+    end
+    # def destroy
+    #     animal = Animal.find(params[:id])
+    #     animal.destroy!
+    #     render json: {}
+    # end
+
 private
 
     def user_params
