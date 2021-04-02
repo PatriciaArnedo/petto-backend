@@ -6,7 +6,6 @@ class Api::UsersController < ApplicationController
     end
 
     def showName
-
     #    if !!(params[:id] =~ /[\D]/)
         #byebug
         user = User.find_by(:name => params[:name]) 
@@ -15,7 +14,6 @@ class Api::UsersController < ApplicationController
     #     user = User.find(params[:id])
     #     render json: user 
     #    end
-       
     end
 
     # def showName
